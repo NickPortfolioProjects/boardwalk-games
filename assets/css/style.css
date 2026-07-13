@@ -1,22 +1,28 @@
 /* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
 
 /* CSS variables */
 :root {
     --primary-font: 'Inter', sans-serif;
     --secondary-font: 'Macondo', cursive;
-    --primary-color: #416a8e; /* Primary color for the website */
+    --primary-color: #3a2620; /* Dark brown */
+    --secondary-color: #AA9581; /* Beaver */
+    --highlight-color: #416A8E; /* Lapis Lazuli */
+    --light-highlight-color: #7A9FC2; /* Air Superiority Blue */
 }
 
 body {
     font-family: var(--primary-font);
-
 }
 
+/* Headings */
 h1,
 h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color); /* Use the primary color for headings */
+}
+
+.sub-heading-color {
+    color: var(--highlight-color); /* Use the highlight color for subheadings */
 }
