@@ -11,6 +11,7 @@
     --light-highlight-color: #7A9FC2; /* Air Superiority Blue */
 }
 
+/* Global styles */
 body {
     font-family: var(--primary-font);
 }
@@ -25,6 +26,15 @@ h3 {
 
 .sub-heading-color {
     color: var(--highlight-color); /* Use the highlight color for subheadings */
+}
+
+/* Navbar */
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
 }
 
 /*.container,
